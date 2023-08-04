@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+    font-size : 20px;
+    font-family: 'Roboto', sans-serif;
+    background: rgb(198, 198, 237);
+    }
+   
+    h2{
+        color:rgb(99, 16, 102);
+    }
+    .card{
+        background-color:rgb(173, 204, 173);
+        font-style: italic;
+    }
+    .card_1{
+        border-radius:  20px;
+        background-color:rgb(181, 191, 239);
+        padding:15px 15px 15px 15px;
+    
+       
+    }
+    .card_2{
+       
+        border-radius:  20px;
+        background-color:rgb(205, 246, 194);
+        padding:15px 15px 15px 15px;
+        }
+    .card_3{
+        border-radius:  20px;
+        background-color:rgb(242, 218, 230);
+        padding:15px 15px 15px 15px;
+
+        }
+   
+    .conteiner{
+        max-width:500px;
+        margin:auto;
+        padding:20px 25px 20px 25px;
+
+    }
+    .info{
+        width:200px;
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
+        border-radius:20px;
+        margin-bottom:10px;
+    }
+    
+    a:hover{
+        color:rgb(31, 21, 95);
+    }
+    a:visited{
+        color:rgb(22, 78, 28);
+    }
+    a:active{
+        color:rgb(237, 41, 51); 
+      }
+      .btn{
+        border-radius: 5px;
+        background: rgb(198, 198, 237);
+        text-decoration:none;
+    }
+    .card_4{
+        border-radius:  20px;
+        background-color:rgb(230, 249, 200);
+        padding:15px 15px 15px 15px;
+    }
+    .list li{
+        margin-bottom: 10px;
+        border-bottom: 1px solid grey;
+    }
+   .card_2 td:nth-child(odd){
+background: #edb1b1;
+   }
+   .card_2 tr td{
+   width:200px;
+
+   }

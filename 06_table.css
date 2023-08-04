@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+    font-size : 20px;
+    font-family: 'Roboto', sans-serif;
+    background: center;
+}
+.tbl{
+width:500px;
+}
+.tbl th {
+text-align: center;
+padding-bottom: 10px;
+}   
+.tbl th {
+    background: #9cdfee;
+}   
+.tbl td {
+text-align: center;
+padding-bottom: 10px;
+}
+.tbl td{
+    color: #e948b9;
+   
+}
+.tbl th:hover{
+    background: #eeb3d7;
+}
+.tbl td:hover{
+    background: #51b8b8;
+}
+.tbl tr:nth-child(even){
+background: #eee;
+}
+.tbl td:nth-child(2){
+    background: #fffeee;
+    }

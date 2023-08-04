@@ -1,0 +1,43 @@
+.color-1{
+    color:aqua;
+}
+.color-2{
+    color:rgb(153, 60, 83);
+}
+.color-3{
+    color:rgb(0, 255, 98);
+}
+.color-4{
+    color:rgb(144, 216, 49);
+}
+.color-5{
+    color:rgb(87, 15, 146);
+}
+a{
+    color:green;
+    text-decoration: none;
+   transition:all .2s ;
+}
+a:hover{
+    color:yellow;
+    font-size: 2rem;
+}
+a:visited{
+    color:rgb(60, 144, 113);
+}
+a:active{
+    color:rgb(189, 24, 51);
+}
+.btn{
+    background: #84c4ee;
+    padding: 15px 20px;
+    color:#fff;
+    border:none;
+    cursor:pointer;
+    border-radius: 5px;
+    font-family: inherit;
+}
+.btn:hover{
+    opacity: .8;
+    color:red;
+}
