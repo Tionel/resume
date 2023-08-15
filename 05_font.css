@@ -16,16 +16,16 @@ body{
     .card_1{
         border-radius:  10px;
         background-color:rgb(181, 191, 239);
-        padding:15px 15px 15px 15px;
-    
-       
+        padding:15px 15px 15px 15px;   
     }
     .card_2{
-       
         border-radius:  20px;
         background-color:rgb(205, 246, 194);
         padding:15px 15px 15px 15px;
         }
+    .card_2 h2{
+        text-align:center;
+        {
     .card_3{
         border-radius:  20px;
         background-color:rgb(242, 218, 230);
