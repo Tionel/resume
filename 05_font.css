@@ -23,8 +23,6 @@ body{
         background-color:rgb(205, 246, 194);
         padding:15px 15px 15px 15px;
         }
-  
-         }
    .card_2 td:nth-child(odd){
 background: #edb1b1;
    }
