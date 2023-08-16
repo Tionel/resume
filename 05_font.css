@@ -23,9 +23,16 @@ body{
         background-color:rgb(205, 246, 194);
         padding:15px 15px 15px 15px;
         }
-    .card_2 h2{
-        text-align:center;
-        {
+  
+         }
+   .card_2 td:nth-child(odd){
+background: #edb1b1;
+   }
+   .card_2 tr td{
+   width:200px;
+
+   }
+
     .card_3{
         border-radius:  20px;
         background-color:rgb(242, 218, 230);
@@ -68,11 +75,4 @@ body{
     .list li{
         margin-bottom: 10px;
         border-bottom: 1px solid grey;
-    }
-   .card_2 td:nth-child(odd){
-background: #edb1b1;
-   }
-   .card_2 tr td{
-   width:200px;
-
-   }
+   
