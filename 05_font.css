@@ -5,6 +5,24 @@ body{
     font-family: 'Roboto', sans-serif;
     background: rgb(198, 198, 237);
     }
+    info {
+      display:flex; 
+    }
+    .info-text{
+        margin-left:20px;
+        display:flex; 
+    }
+    .info-text p{
+        font-style: italic;
+        font-weight: bold;
+        margin: 0;
+        margin-left:40px;
+        color:#170c6b;
+    }
+    @media (max-width:650px) 
+        .info {
+            display:block;
+            text-align:center;}
    
     h2{
         color:rgb(99, 16, 102);
@@ -18,8 +36,10 @@ body{
         border-radius:  20px;
         background-color:rgb(181, 191, 239);
         padding:15px 15px 15px 15px;
-    
        
+    }
+    .card_1{
+        margin: 15px;
     }
     .card_2{
        
@@ -34,28 +54,20 @@ body{
 
         }
    
-    .conteiner{
-        max-width:500px;
+    .container{
+        max-width:750px;
         margin:auto;
         padding:20px 25px 20px 25px;
 
     }
-    .info {
+    .avatar {
         width:200px;
         box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
         border-radius:20px;
-        margin-bottom:20px;
-       
+        
     }
     
-    .info-text p{
-        display:flex;
-        margin-left: 40px;
-       
-         }
-    .info-text{
-          
-             }
+    
     a:hover{
         color:rgb(31, 21, 95);
     }
@@ -80,9 +92,9 @@ body{
         border-bottom: 1px solid grey;
     }
    .card_2 td:nth-child(odd){
-background: #edb1b1;
+     background: #edb1b1;
    }
-   .card_2 tr td{
+    .card_2 tr td{
    width:200px;
 
    }
@@ -115,4 +127,13 @@ form-group input ,.form-group textarea{
     margin-bottom: 10px;
     
 }
-   
+.border{
+    border:2px solid black;
+    border-bottom:2px solid black;
+    border-color:#170c6b;
+}
+.border th, td{
+    border:2px solid black;
+    border-bottom:2px solid black;
+    border-color:#170c6b;
+}
